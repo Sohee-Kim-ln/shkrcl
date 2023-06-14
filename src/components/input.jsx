@@ -1,14 +1,19 @@
 import React from "react";
-import { useState } from "react";
+// import { useState } from "react";
 
-function input(props) {
-  const [type, setType] = useState(props.type);
-  const [text, setText] = useState(props.text);
-  const [value, setValue] = useState(props.value);
+function inputCompo(props) {
+  // const type = props.type;
+  // const innerText = props.text;
+  // const setValue = props.value;
+  const placeholder = props.placeholder;
+  // const name = props.name;
 
   return (
     <div>
-      <div></div>
+      "test"
+      <input placeholder={placeholder}></input>
     </div>
   );
 }
+
+export default inputCompo;
